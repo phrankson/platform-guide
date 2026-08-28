@@ -53,17 +53,17 @@ Three small devices repeat throughout the book:
 2. [The five pillars of platform engineering](book/part-1-foundations/02-the-five-pillars.md)
 3. [Bounded contexts: why (eventually) six repos, not one](book/part-1-foundations/03-bounded-contexts.md)
 
-### Part 2 — Governance (`platform-team-administration`)
-4. Permits and blueprints — repos and branch protection as code
-5. Two inspectors — git hooks and CI/CD
-6. Governance at scale — the same pattern, two layers
+### Part 2 — Governance (`platform-team-administration`) ✅
+4. [Permits and blueprints — repos and branch protection as code](book/part-2-governance/04-permits-and-blueprints.md)
+5. [Two inspectors — git hooks and CI/CD](book/part-2-governance/05-two-inspectors.md)
+6. [Governance at scale — the same pattern, two layers](book/part-2-governance/06-governance-at-scale.md)
 
-### Part 3 — Building the house (`platform-core`)
-7. Three houses, not three rooms — clusters and why local
-8. Utility hookups — networking, and the subnet that didn't match
-9. Pulumi's escape hatch, and the multi-cluster race
-10. The smart-home hub — installing Argo CD, and the inotify incident
-11. Proving it works — tests, progressive delivery, inner/outer loop
+### Part 3 — Building the house (`platform-core`) ✅
+7. [Three houses, not three rooms](book/part-3-building-the-house/07-three-houses-not-three-rooms.md)
+8. [Utility hookups — networking, and the subnet that didn't match](book/part-3-building-the-house/08-utility-hookups.md)
+9. [Pulumi's escape hatch, and the multi-cluster race](book/part-3-building-the-house/09-pulumis-escape-hatch.md)
+10. [The smart-home hub — installing Argo CD, and the inotify incident](book/part-3-building-the-house/10-the-smart-home-hub.md)
+11. [Proving it works — tests, progressive delivery, inner/outer loop](book/part-3-building-the-house/11-proving-it-works.md)
 
 ### Part 4 — The filing cabinet (`platform-gitops`)
 12. What Argo CD actually does (the reconciliation loop)
@@ -82,7 +82,7 @@ Three small devices repeat throughout the book:
 21. SRE, retrospectively — every incident as one postmortem pattern
 22. What's still missing, and why that's normal
 
-Parts 2 through 6 are planned, not yet written — this book grows the same
+Parts 4 through 6 are planned, not yet written — this book grows the same
 incremental way every other part of this project does.
 
 ---
