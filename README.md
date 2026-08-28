@@ -78,12 +78,16 @@ Three small devices repeat throughout the book:
 19. [Toil, verification, and the test that lied](book/part-5-the-real-workload/19-toil-and-verification.md)
 20. [Hands-on: deploy your own service (Helm vs. Kustomize)](book/part-5-the-real-workload/20-hands-on-deploy-your-own-service.md)
 
-### Part 6 — Closing the loop
-21. SRE, retrospectively — every incident as one postmortem pattern
-22. What's still missing, and why that's normal
+### Part 6 — Closing the loop ✅
+21. [SRE, retrospectively — every incident as one postmortem pattern](book/part-6-closing-the-loop/21-sre-retrospectively.md)
+22. [What's still missing, and why that's normal](book/part-6-closing-the-loop/22-whats-still-missing.md)
 
-Part 6 is planned, not yet written — this book grows the same incremental
-way every other part of this project does.
+This book is complete, and honest that the project it documents isn't:
+two of the six planned bounded contexts (`platform-extensions` and
+`platform-demo-apps`) are still empty, and built-in operability — the one
+pillar Chapter 2 named as a real gap — never got checked off. Read
+[Chapter 22](book/part-6-closing-the-loop/22-whats-still-missing.md) for
+the full closing account of both.
 
 ---
 

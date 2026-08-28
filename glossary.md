@@ -83,7 +83,8 @@ than starting a new one.
 - **Trigger vs. root cause** — the trigger is the immediate event that set
   an incident off; the root cause is the underlying condition that made
   the trigger capable of causing damage. Named in [Chapter 10](book/part-3-building-the-house/10-the-smart-home-hub.md#the-flagship-incident-a-crash-looping-helper-three-houses-one-shared-limit)
-  against the `fs.inotify` incident; Part 6 covers this fully.
+  against the `fs.inotify` incident; applied to all four of this book's
+  real incidents side by side in [Chapter 21](book/part-6-closing-the-loop/21-sre-retrospectively.md#the-four-incidents-side-by-side).
 
 ## Part 4 — The filing cabinet
 
@@ -134,3 +135,23 @@ than starting a new one.
   reach `main` with no real cluster involved, versus forcing
   reconciliation and smoke-testing against the real cluster only after
   merge. Taught in [Chapter 19](book/part-5-the-real-workload/19-toil-and-verification.md#verification-and-where-this-fits-in-the-pipeline).
+
+## Part 6 — Closing the loop
+
+- **Blameless postmortem** — reviewing an incident by asking what about
+  the *system* allowed the failure, not who caused it, because the
+  interesting finding is usually what let a reasonable action produce a
+  bad outcome, not a person's mistake. Applied to all four of this book's
+  real incidents in [Chapter 21](book/part-6-closing-the-loop/21-sre-retrospectively.md#four-incidents-one-pattern-underneath).
+- **Error budget** — the amount of unreliability a team explicitly agrees
+  is acceptable over some window, measured against a target, so that
+  "ship this risky change" or "stop and fix reliability instead" has a
+  number behind it. Named as a real gap this project doesn't have in
+  [Chapter 21](book/part-6-closing-the-loop/21-sre-retrospectively.md#toil-and-error-budgets),
+  closed out honestly in [Chapter 22](book/part-6-closing-the-loop/22-whats-still-missing.md#built-in-operability-one-last-time).
+- **Platform ops** — a team or system responsible for a platform's own
+  health the way an SRE team is responsible for a product's uptime:
+  service-level objectives on the platform's own components, alerting
+  that actually pages someone, an on-call rotation, and dashboards built
+  for a glance. Named precisely, and named as missing from this project,
+  in [Chapter 22](book/part-6-closing-the-loop/22-whats-still-missing.md#built-in-operability-one-last-time).
