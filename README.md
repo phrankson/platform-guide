@@ -65,25 +65,25 @@ Three small devices repeat throughout the book:
 10. [The smart-home hub — installing Argo CD, and the inotify incident](book/part-3-building-the-house/10-the-smart-home-hub.md)
 11. [Proving it works — tests, progressive delivery, inner/outer loop](book/part-3-building-the-house/11-proving-it-works.md)
 
-### Part 4 — The filing cabinet (`platform-gitops`)
-12. What Argo CD actually does (the reconciliation loop)
-13. One cabinet, many drawers — environments explained
-14. The App of Apps pattern
-15. Multi-tenancy — onboarding a second team
+### Part 4 — The filing cabinet (`platform-gitops`) ✅
+12. [What Argo CD actually does](book/part-4-the-filing-cabinet/12-what-argocd-actually-does.md)
+13. [One cabinet, many drawers — environments explained](book/part-4-the-filing-cabinet/13-one-cabinet-many-drawers.md)
+14. [The App of Apps pattern](book/part-4-the-filing-cabinet/14-the-app-of-apps-pattern.md)
+15. [Multi-tenancy — onboarding a second tenant](book/part-4-the-filing-cabinet/15-multi-tenancy.md)
 
-### Part 5 — The real workload (`platform-services`)
-16. Extensions vs. services — what actually gets delivered
-17. Installing the mesh, and the `auto`-image postmortem
-18. Policy as code, and its honest coverage gap
-19. Toil, verification, and the test that lied
-20. Hands-on: deploy your own service (Helm vs. Kustomize)
+### Part 5 — The real workload (`platform-services`) ✅
+16. [Extensions vs. services — what actually gets delivered](book/part-5-the-real-workload/16-extensions-vs-services.md)
+17. [Installing the mesh, and the `auto`-image postmortem](book/part-5-the-real-workload/17-installing-the-mesh.md)
+18. [Policy as code, and its honest coverage gap](book/part-5-the-real-workload/18-policy-as-code.md)
+19. [Toil, verification, and the test that lied](book/part-5-the-real-workload/19-toil-and-verification.md)
+20. [Hands-on: deploy your own service (Helm vs. Kustomize)](book/part-5-the-real-workload/20-hands-on-deploy-your-own-service.md)
 
 ### Part 6 — Closing the loop
 21. SRE, retrospectively — every incident as one postmortem pattern
 22. What's still missing, and why that's normal
 
-Parts 4 through 6 are planned, not yet written — this book grows the same
-incremental way every other part of this project does.
+Part 6 is planned, not yet written — this book grows the same incremental
+way every other part of this project does.
 
 ---
 
